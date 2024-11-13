@@ -1,0 +1,121 @@
+﻿/* Простые селекторы*/
+.video-container {
+    display: inline-block;
+    padding-left: 1%;
+    padding-top: 1%;
+}
+/**/ header, footer, body, .video-container {
+    background-color: burlywood;
+}
+/* Комбинированный селектор - применяется ко всем элементам
+header, footer, aside, body, .navbar, .video-container {
+    font-family: "Helvetica 65 Medium", sans-serif;
+} */
+
+.navbar {
+    color: darkgray;
+    padding-left: 10%;
+    position: absolute;
+}
+
+    /* Стили панели навигации */
+    .navbar p {
+        color: darkgray;
+        padding-left: 10%;
+    }
+        /* Стили панели навигации при наведении мышью */
+        .navbar p:hover {
+            color: aliceblue;
+        }
+
+/*Глобальные стили для хедеров на всём сайте*/
+header {
+    color: black;
+    padding-left: 1%;
+    padding-top: 1.2%;
+}
+/*Стиль хедера для главной страницы имеет приоритет,
+так как используется селектор по идентификатору*/
+#header-index {
+    color: #44453f;
+}
+
+footer {
+    position: fixed; /*fixed;*/
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: lightgray;
+    margin-left: -2%;
+    padding-left: 3%;
+    font: normal 16px arial;
+    padding-top: 5px;
+    line-height: 50%;
+}
+
+
+aside {
+    height: 100%; /* Высота в полный размер. Этот параметр можно убрать, если вы хотите выставлять высоту автоматически */
+    width: 10%;
+    position: fixed;/*absolute;*/ /* Фиксированная позиция сайд-бара. Так он будет оставаться на месте при скроллинге */
+    z-index: 1; /* Сайд-бар будет поверх остальных элементов */
+    top: 0; /* Сайдбар будет в самой верхней части страницы */
+    left: 0;
+    background-color: #111; /* Черный цвет фона (задан в виде кода) */
+    overflow-x: hidden; /* Отключаем горизонтальную прокрутку */
+    padding-top: 2%;
+    font-size: large;
+}
+
+body {
+    padding-left: 11%;
+}
+/* search*/
+* {
+    box-sizing: border-box;
+}
+
+form {
+    position: relative;
+    width: 400px;
+    margin: 0 auto;
+}
+
+input /*, .button */ {
+    outline: none;
+    background: transparent;
+}
+
+input {
+    width: 100%;
+    height: 42px;
+    padding-left: 15px;
+    border-radius: 42px;
+    border: 3px solid #F9F0DA;
+}
+
+    input:focus {
+        border-color: #311c24;
+        background-color: lightpink;
+    }
+/**/
+.rewiews, .review-button {
+    display: inline-block;
+    margin-top: 0.5em;
+    padding-left: 1%;
+    padding-top: 0%;
+}
+
+.rewiews {
+    width: 200px;
+}
+/**/
+
+.review-text {
+    display: block;
+    margin-top: 0.5em;
+    padding-left: 1%;
+    padding-top: 0%;
+    border: 2px solid black; /*#F9F0DA;*/
+    width: 800px;
+}

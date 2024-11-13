@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LifeSpot", "LifeSpot\LifeSpot.csproj", "{94E50B89-009D-4722-BAE7-D36A85643CE9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94E50B89-009D-4722-BAE7-D36A85643CE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94E50B89-009D-4722-BAE7-D36A85643CE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94E50B89-009D-4722-BAE7-D36A85643CE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94E50B89-009D-4722-BAE7-D36A85643CE9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		SolutionGuid = {5CF94460-016A-420B-B507-0B8E0EB2F36D}
+	EndGlobalSection
+EndGlobal
